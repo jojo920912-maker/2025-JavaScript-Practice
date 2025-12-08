@@ -1,7 +1,7 @@
-function squareArea(a, b){
-  const result = (a * b)
+function calculateSquareArea(a){
+  const result = (a * a)
   return result
 }
 
-const area_01 = squareArea(6, 6)
+const area_01 = calculateSquareArea(6)
 console.log(area_01)

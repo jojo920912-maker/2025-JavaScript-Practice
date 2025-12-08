@@ -1,4 +1,4 @@
-let themonth = 12
+let theMonth = 12
 
 function getSeason(month){
   if (month >= 1 && month <= 3){
@@ -14,8 +14,8 @@ function getSeason(month){
   }
 }
 
-let season = getSeason(themonth)
-console.log(`當前月份 ${themonth} 月，季節是：${season}`)
+const season = getSeason(theMonth)
+console.log(`當前月份 ${theMonth} 月，季節是：${season}`)
 console.log(`3 月是：${getSeason(3)}`)
 console.log(`6 月是：${getSeason(6)}`)
 console.log(`8 月是：${getSeason(8)}`)
