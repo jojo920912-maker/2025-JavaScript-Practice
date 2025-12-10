@@ -1,11 +1,13 @@
-const name = "Handsome Boy"
-const name_01 = "Hey Boy"
+let firstNumber = 0
+let secondNumber = 0
 
-function greet(personName){
-  return `Hello, ${personName}!`
+for(let i = 1; i < 101; i++){
+  if ( i % firstNumber === 0){
+    firstNumber = firstNumber + i
+  }else{
+    secondNumber = secondNumber +i
+  }
 }
 
-console.log(greet(name))
-console.log(greet(name_01))
-console.log(greet("Henry"))
-console.log(greet("jojo"))
+console.log(firstNumber)
+console.log(secondNumber)
