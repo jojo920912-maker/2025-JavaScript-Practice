@@ -1,6 +1,10 @@
-function getStar(n){
-  console.log("*".repeat(n));
+let result = ''
+
+function Star(n){
+  for(let i = 1 ; i <= n ; i++){
+    result = result + '*'
+    console.log(result)
+  }
 }
 
-getStar('5')
-getStar('15')
+Star(5)

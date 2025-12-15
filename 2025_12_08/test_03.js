@@ -1,13 +1,13 @@
-let firstNumber = 0
-let secondNumber = 0
+let oddSum = 0
+let evenSum = 0
 
 for(let i = 1; i < 101; i++){
-  if ( i % firstNumber === 0){
-    firstNumber = firstNumber + i
-  }else{
-    secondNumber = secondNumber +i
+  if ( i % 2 === 0){
+    oddSum = oddSum + i
+  } else{
+    evenSum = evenSum + i
   }
 }
 
-console.log(firstNumber)
-console.log(secondNumber)
+console.log(oddSum)
+console.log(evenSum)

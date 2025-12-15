@@ -1,7 +1,7 @@
-/*let print = n*/
-
-function getPrint(n){
-  console.log("1 ~ n")
+function Print(n){
+  for(let i = 1 ; i <= n ; i++){
+    console.log(i)
+  }
 }
 
-getPrint("word")
+Print("10")

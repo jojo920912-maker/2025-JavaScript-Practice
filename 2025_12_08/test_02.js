@@ -1,7 +1,3 @@
-const Mood = 'happy'
-const Feel = 'sad'
-const Emotions = 'angry'
-
 function getFeeling(Mood){
   if (Mood === 'happy'){
     return ("真為你開心")
