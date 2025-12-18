@@ -1,13 +1,15 @@
-let gender = 'male'
+let gender = true
+
 
 function school(gender){
-  if (gender === 'male'){
+  if (gender){
     console.log('去讀南一中')
-  } else if (gender === 'female'){
+  } else{
     console.log('去讀南女中')
-  } else {
-    console.log('性別輸入有誤，請輸入 男 或 女')
   }
 }
 
 school(gender)
+
+
+/*布林*/
