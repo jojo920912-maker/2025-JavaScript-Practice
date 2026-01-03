@@ -1,9 +1,9 @@
-function getFeeling(Mood){
-  if (Mood === 'happy'){
+function getFeeling(mood){
+  if (mood === 'happy'){
     return ("真為你開心")
-  }else if(Mood === 'sad'){
+  }else if(mood === 'sad'){
     return ("拍拍，會好起來的")
-  }else if(Mood === 'angry'){
+  }else if(mood === 'angry'){
     return ("別氣，都是對方不好")
   }else {
     return ("雖然我不懂，但我會一直陪著你")

@@ -1,7 +1,4 @@
 let grade = 80
-grade = 70
-grade = 60
-grade = 50
 
 function classroom(score){
   switch(score){
